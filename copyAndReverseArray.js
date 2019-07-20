@@ -7,8 +7,8 @@ function copyAndReverseArray(array) {
     var newarray = array.slice().reverse();
     return newarray;
   }
-  
-  /* Do not modify code below this line */
+
+/*Example inputs/outputs below*/
   
   const original = [1, 2, 3, 4, 5];
   const reversed = copyAndReverseArray(original);
