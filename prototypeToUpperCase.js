@@ -9,7 +9,5 @@ Person.prototype.shoutName = function() {
   return this.name.toUpperCase();
 }
 
-/* Do not modify code below this line */
-
 const john = new Person('John');
 console.log(john.shoutName(), '<-- should be "JOHN"');
