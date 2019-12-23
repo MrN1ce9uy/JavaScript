@@ -12,5 +12,5 @@ function copyAndReverseArray(array) {
   
   const original = [1, 2, 3, 4, 5];
   const reversed = copyAndReverseArray(original);
-  console.log(original, '<-- should still be [1, 2, 3, 4, 5]');
-  console.log(reversed, '<-- should be [5, 4, 3, 2, 1]');
+  console.log(original) // should still be [1, 2, 3, 4, 5]
+  console.log(reversed) // should be [5, 4, 3, 2, 1]
