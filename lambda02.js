@@ -7,7 +7,7 @@ function Person(name, age) {
         return this.age >= 16;
     }
     
-    /* Do not modify code below this line */
+    /* ... */
     
     const youngPerson = new Person('Jane', 15);
     console.log(youngPerson.isLegalDriver(), '<-- should be false');
